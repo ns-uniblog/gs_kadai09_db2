@@ -1,0 +1,103 @@
+body {
+    font-family: 'Seigo UI', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #FFFCF7; /* ベースカラー */
+    color: #544739; /* テキストカラー */
+}
+
+h1 {
+    color: #859A93; /* アクセントカラー */
+    font-size: 22px; /* 小さめに調整 */
+    margin-bottom: 10px;
+}
+
+form {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+    width: 99%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #b0c4de; /* 優しい青 */
+    border-radius: 3px;
+}
+
+button {
+    background-color: #859A93; /* アクセントカラー */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #758c87; /* ダークトーン */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ddd; /* 修正した枠線 */
+    font-size: 14px; /* フォントサイズを調整 */
+}
+
+th {
+    background-color: #859A93; /* アクセントカラー */
+    color: white;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+}
+
+.button-group form {
+    margin: 0 2px; /* 余白を減少 */
+    display: inline; /* フォームをインラインに */
+}
+
+.button-group button {
+    background-color: #859A93; /* アクセントカラー */
+    color: white;
+    border: none; /* 枠線を削除 */
+    padding: 8px 10px; /* コンパクトに調整 */
+    border-radius: 3px; /* 少し角を丸める */
+    cursor: pointer;
+    font-size: 12px; /* フォントサイズを調整 */
+    box-shadow: none; /* 影を削除 */
+}
+
+.button-group button:hover {
+    background-color: #758c87; /* ダークトーン */
+}
+
+.form-button-group {
+    padding: 0;
+}
+
+.button-group-2 {
+    display: flex;
+    gap: 10px;
+}
